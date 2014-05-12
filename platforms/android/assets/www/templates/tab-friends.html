@@ -1,9 +1,6 @@
-<ion-view title="Friends">
+<ion-view title="Camera/File system">
   <ion-content class="has-header">
-    <ion-list>
-      <ion-item ng-repeat="friend in friends" type="item-text-wrap" href="#/tab/friend/{{friend.id}}">
-        {{friend.english_name}}
-      </ion-item>
-    </ion-list>
+    <button onclick="capturePhoto();">Capture Photo</button>
+    <img style="width:200px;height:200px;" id="smallImage" src=""/>
   </ion-content>
 </ion-view>

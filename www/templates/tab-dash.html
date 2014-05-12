@@ -1,7 +1,13 @@
-<ion-view title="Dashboard">
+<ion-view title="API/ Local notifications">
   <ion-content class="has-header padding">
     <h1>Dash</h1>
+    <button onclick="localNotify()">Local notify</button>
     <ul id="app-status-ul">
     </ul>
+    <ion-list>
+      <ion-item ng-repeat="friend in friends" type="item-text-wrap" href="#/tab/friend/{{friend.id}}">
+        {{friend.english_name}}
+      </ion-item>
+    </ion-list>
   </ion-content>
 </ion-view>

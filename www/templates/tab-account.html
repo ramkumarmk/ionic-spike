@@ -1,7 +1,7 @@
-<ion-view title="Contacts">
+<ion-view title="Contacts/DB" ng-controller="AccountCtrl">
   <ion-content class="has-header padding">
-  	<button onclick="saveDB();">Save</button>
-  	<button onclick="loanDB();">load</button>
+  	<button ng-click="saveDB()">Save</button>
+  	<button ng-click="loanDB()">load</button>
     <ion-list>
       <ion-item ng-repeat="friend in contacts" type="item-text-wrap" >
         {{friend.displayName}}

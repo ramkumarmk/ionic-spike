@@ -1,10 +1,10 @@
 angular.module('starter.controllers', [])
 
-.controller('DashCtrl', function($scope) {
+.controller('DashCtrl', function($scope, Friends) {
+  Friends.load_all($scope);
 })
 
-.controller('FriendsCtrl', function($scope, Friends) {
-  Friends.load_all($scope);
+.controller('FriendsCtrl', function($scope) {
 })
 
 .controller('FriendDetailCtrl', function($scope, $stateParams, Friends) {
@@ -15,8 +15,8 @@ angular.module('starter.controllers', [])
 	Friends.all_contacts($scope)
 	$scope.saveDB = function(){
   	db.transaction(function(tx){
-  		tx.executeSql('INSERT INTO DEMO (id, data) VALUES (1, "First row")');
-  	}, errorCB, successCB);   
+  		tx.executeSql('INSERT INTO WELEND (id, data) VALUES (1, "First row")');
+  	}, errorDBCB, successDBCB);   
 
 	};
 	$scope.loadDB = function(){

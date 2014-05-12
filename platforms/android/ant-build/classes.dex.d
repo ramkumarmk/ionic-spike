@@ -12,6 +12,15 @@
 /Users/welab/ionic-spike/platforms/android/ant-build/classes/com/plugin/gcm/GCMIntentService.class \
 /Users/welab/ionic-spike/platforms/android/ant-build/classes/com/plugin/gcm/PushHandlerActivity.class \
 /Users/welab/ionic-spike/platforms/android/ant-build/classes/com/plugin/gcm/PushPlugin.class \
+/Users/welab/ionic-spike/platforms/android/ant-build/classes/de/appplant/cordova/plugin/localnotification/LocalNotification$1.class \
+/Users/welab/ionic-spike/platforms/android/ant-build/classes/de/appplant/cordova/plugin/localnotification/LocalNotification$2.class \
+/Users/welab/ionic-spike/platforms/android/ant-build/classes/de/appplant/cordova/plugin/localnotification/LocalNotification$3.class \
+/Users/welab/ionic-spike/platforms/android/ant-build/classes/de/appplant/cordova/plugin/localnotification/LocalNotification$4.class \
+/Users/welab/ionic-spike/platforms/android/ant-build/classes/de/appplant/cordova/plugin/localnotification/LocalNotification.class \
+/Users/welab/ionic-spike/platforms/android/ant-build/classes/de/appplant/cordova/plugin/localnotification/Options.class \
+/Users/welab/ionic-spike/platforms/android/ant-build/classes/de/appplant/cordova/plugin/localnotification/Receiver.class \
+/Users/welab/ionic-spike/platforms/android/ant-build/classes/de/appplant/cordova/plugin/localnotification/ReceiverActivity.class \
+/Users/welab/ionic-spike/platforms/android/ant-build/classes/de/appplant/cordova/plugin/localnotification/Restore.class \
 /Users/welab/ionic-spike/platforms/android/ant-build/classes/org/apache/cordova/camera/CameraLauncher.class \
 /Users/welab/ionic-spike/platforms/android/ant-build/classes/org/apache/cordova/camera/ExifHelper.class \
 /Users/welab/ionic-spike/platforms/android/ant-build/classes/org/apache/cordova/camera/FileHelper.class \

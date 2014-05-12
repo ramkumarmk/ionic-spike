@@ -10,7 +10,7 @@ function errorHandler (error) {
 
 function onNotificationGCM(e) {
   // $("#app-status-ul").append('<li>EVENT -> RECEIVED:' + e.event + '</li>');
-  alert(e.event);
+  console.log(e.event);
   switch( e.event )
   {
   case 'registered':
@@ -31,8 +31,8 @@ function onNotificationGCM(e) {
           appendMessage('--INLINE NOTIFICATION--');
 
           // if the notification contains a soundname, play it.
-          var my_media = new Media("/android_asset/www/"+e.soundname);
-          my_media.play();
+          // var my_media = new Media("/android_asset/www/"+e.soundname);
+          // my_media.play();
       }
       else
       {  // otherwise we were launched because the user touched a notification in the notification tray.

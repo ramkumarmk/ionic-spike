@@ -28,6 +28,7 @@
 /Users/welab/ionic-spike/platforms/android/assets/www/js/app.js \
 /Users/welab/ionic-spike/platforms/android/assets/www/js/controllers.js \
 /Users/welab/ionic-spike/platforms/android/assets/www/js/db.js \
+/Users/welab/ionic-spike/platforms/android/assets/www/js/local_notification.js \
 /Users/welab/ionic-spike/platforms/android/assets/www/js/push_notification.js \
 /Users/welab/ionic-spike/platforms/android/assets/www/js/sam_camera.js \
 /Users/welab/ionic-spike/platforms/android/assets/www/js/services.js \
@@ -106,6 +107,7 @@
 /Users/welab/ionic-spike/platforms/android/assets/www/lib/ionic/scss/ionicons/_ionicons-variables.scss \
 /Users/welab/ionic-spike/platforms/android/assets/www/lib/ionic/scss/ionicons/ionicons.scss \
 /Users/welab/ionic-spike/platforms/android/assets/www/plugins/com.phonegap.plugins.PushPlugin \
+/Users/welab/ionic-spike/platforms/android/assets/www/plugins/de.appplant.cordova.plugin.local-notification \
 /Users/welab/ionic-spike/platforms/android/assets/www/plugins/org.apache.cordova.camera \
 /Users/welab/ionic-spike/platforms/android/assets/www/plugins/org.apache.cordova.contacts \
 /Users/welab/ionic-spike/platforms/android/assets/www/plugins/org.apache.cordova.device \
@@ -114,6 +116,8 @@
 /Users/welab/ionic-spike/platforms/android/assets/www/plugins/org.apache.cordova.network-information \
 /Users/welab/ionic-spike/platforms/android/assets/www/plugins/com.phonegap.plugins.PushPlugin/www \
 /Users/welab/ionic-spike/platforms/android/assets/www/plugins/com.phonegap.plugins.PushPlugin/www/PushNotification.js \
+/Users/welab/ionic-spike/platforms/android/assets/www/plugins/de.appplant.cordova.plugin.local-notification/www \
+/Users/welab/ionic-spike/platforms/android/assets/www/plugins/de.appplant.cordova.plugin.local-notification/www/local-notification.js \
 /Users/welab/ionic-spike/platforms/android/assets/www/plugins/org.apache.cordova.camera/www \
 /Users/welab/ionic-spike/platforms/android/assets/www/plugins/org.apache.cordova.camera/www/Camera.js \
 /Users/welab/ionic-spike/platforms/android/assets/www/plugins/org.apache.cordova.camera/www/CameraConstants.js \

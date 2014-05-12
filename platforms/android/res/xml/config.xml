@@ -26,6 +26,9 @@
     <feature name="PushPlugin">
         <param name="android-package" value="com.plugin.gcm.PushPlugin" />
     </feature>
+    <feature name="LocalNotification">
+        <param name="android-package" value="de.appplant.cordova.plugin.localnotification.LocalNotification" />
+    </feature>
     <name>HelloCordova</name>
     <description>
         An Ionic Framework and Cordova project.
