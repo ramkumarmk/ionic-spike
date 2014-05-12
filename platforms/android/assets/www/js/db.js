@@ -6,7 +6,7 @@ function onDeviceReady() {
 }
 
 function createDB(tx) {
-	tx.executeSql('DROP TABLE IF EXISTS WELEND');
+	// tx.executeSql('DROP TABLE IF EXISTS WELEND');
 	tx.executeSql('CREATE TABLE IF NOT EXISTS WELEND (id unique, data)');
 }
 
