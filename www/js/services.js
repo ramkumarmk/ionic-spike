@@ -26,6 +26,20 @@ angular.module('starter.services', [])
         success(function(data){
           scope.friends = data;
         })
+    },
+    onContactError: function(){
+      console.log("error");
+    },
+    all_contacts: function(scope){
+      var options = new ContactFindOptions();
+      options.filter="ram";
+      options.multiple=true;
+      var fields = ["*"];
+      navigator.contacts.find(fields, function(contacts){
+        console.log(contacts);
+        scope.contacts = contacts;
+        scope.$apply();
+      }, this.onContactError, options);
     }
   }
 });
