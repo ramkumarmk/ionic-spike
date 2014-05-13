@@ -20,6 +20,7 @@
 /Users/welab/ionic-spike/platforms/android/assets/www/index.html \
 /Users/welab/ionic-spike/platforms/android/assets/www/js \
 /Users/welab/ionic-spike/platforms/android/assets/www/lib \
+/Users/welab/ionic-spike/platforms/android/assets/www/main.html \
 /Users/welab/ionic-spike/platforms/android/assets/www/plugins \
 /Users/welab/ionic-spike/platforms/android/assets/www/README.md \
 /Users/welab/ionic-spike/platforms/android/assets/www/templates \
